@@ -4487,7 +4487,7 @@
           "ApiChange": "Resource",
           "ChangedApiName": "authenticationcontextclassreference",
           "ChangeType": "Addition",
-          "Description": "Added the [authenticationContextClassReference](https://learn.microsoft.com/en-us/graph/api/resources/authenticationcontextclassreference?view=graph-rest-beta) resource and associated methods.",
+          "Description": "Added the [authenticationContextClassReference](https://learn.microsoft.com/en-us/graph/api/resources/authenticationcontextclassreference?view=graph-rest-1.0) resource and associated methods.",
           "Target": "authenticationcontextclassreference"
         }
       ],
