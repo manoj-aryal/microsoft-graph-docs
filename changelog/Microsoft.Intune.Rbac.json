@@ -5,9 +5,17 @@
         {
           "Id": "df69b7fd-30b9-4202-8991-8d8788c44cd1",
           "ApiChange": "Resource",
+          "ChangedApiName": "authenticationContextClassReference",
+          "ChangeType": "Addition",
+          "Description": "Added the authenticationContextClassReference resource",
+          "Target": "authenticationContextClassReference"
+        },
+        {
+          "Id": "df69b7fd-30b9-4202-8991-8d8788c44cd1",
+          "ApiChange": "Resource",
           "ChangedApiName": "authenticationContext",
           "ChangeType": "Addition",
-          "Description": "Added the **authenticationContext** relationship to the [unifiedRbacResourceAction](https://learn.microsoft.com/en-us/graph/api/resources/intune-unifiedRbacResourceAction?view=graph-rest-beta) resource.",
+          "Description": "Added the **authenticationContext** relationship to the unifiedRbacResourceAction resource.",
           "Target": "unifiedRbacResourceAction"
         }
       ],
