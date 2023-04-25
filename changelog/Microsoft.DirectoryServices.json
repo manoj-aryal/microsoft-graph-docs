@@ -13202,6 +13202,80 @@
       "CreatedDateTime": "2023-04-11T17:56:44.238139Z",
       "WorkloadArea": "Identity and access",
       "SubArea": "Directory management"
-    }    
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Resource",
+          "ChangedApiName": "authenticationContextClassReference",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationContextClassReference](https://learn.microsoft.com/en-us/graph/api/resources/authenticationContextClassReference?view=graph-rest-beta) resource",
+          "Target": "authenticationContextClassReference"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Resource",
+          "ChangedApiName": "conditionalAccessRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessRoot](https://learn.microsoft.com/en-us/graph/api/resources/conditionalAccessRoot?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessRoot"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Resource",
+          "ChangedApiName": "identityContainer",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityContainer](https://learn.microsoft.com/en-us/graph/api/resources/identityContainer?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Resource",
+          "ChangedApiName": "resourceNamespaces",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceNamespaces** relationship to the [rbacApplication](https://learn.microsoft.com/en-us/graph/api/resources/rbacApplication?view=graph-rest-beta) resource.",
+          "Target": "rbacApplication"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Resource",
+          "ChangedApiName": "authenticationContext",
+          "ChangeType": "Addition",
+          "Description": "Added the **authenticationContext** relationship to the [unifiedRbacResourceAction](https://learn.microsoft.com/en-us/graph/api/resources/unifiedRbacResourceAction?view=graph-rest-beta) resource.",
+          "Target": "unifiedRbacResourceAction"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "conditionalAccess",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccess](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "DirectoryDataService"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identity",
+          "ChangeType": "Addition",
+          "Description": "Added the [identity](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "DirectoryDataService"
+        },
+        {
+          "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+          "ApiChange": "NavigationPropertyBinding",
+          "ChangedApiName": "directory/resourceNamespaces/resourceActions/authenticationContext",
+          "ChangeType": "Addition",
+          "Description": "Added the [directory/resourceNamespaces/resourceActions/authenticationContext](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "roleManagement"
+        }
+      ],
+      "Id": "0cb930db-1801-4a53-b633-7664ba073ccc",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2023-04-24T16:52:44.6951731Z",
+      "WorkloadArea": "Identity and access",
+      "SubArea": "Directory management"
+    }   
   ]
 }

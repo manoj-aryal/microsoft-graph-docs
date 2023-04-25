@@ -1,0 +1,78 @@
+﻿{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Resource",
+          "ChangedApiName": "authenticationContextClassReference",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationContextClassReference](https://learn.microsoft.com/en-us/graph/api/resources/authenticationContextClassReference?view=graph-rest-beta) resource",
+          "Target": "authenticationContextClassReference"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Resource",
+          "ChangedApiName": "conditionalAccessRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessRoot](https://learn.microsoft.com/en-us/graph/api/resources/conditionalAccessRoot?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessRoot"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Resource",
+          "ChangedApiName": "identityContainer",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityContainer](https://learn.microsoft.com/en-us/graph/api/resources/identityContainer?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Resource",
+          "ChangedApiName": "enterpriseApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **enterpriseApps** relationship to the [roleManagement](https://learn.microsoft.com/en-us/graph/api/resources/roleManagement?view=graph-rest-beta) resource.",
+          "Target": "roleManagement"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Resource",
+          "ChangedApiName": "authenticationContext",
+          "ChangeType": "Addition",
+          "Description": "Added the **authenticationContext** relationship to the [unifiedRbacResourceAction](https://learn.microsoft.com/en-us/graph/api/resources/unifiedRbacResourceAction?view=graph-rest-beta) resource.",
+          "Target": "unifiedRbacResourceAction"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "conditionalAccess",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccess](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "EnterpriseRbac"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identity",
+          "ChangeType": "Addition",
+          "Description": "Added the [identity](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "EnterpriseRbac"
+        },
+        {
+          "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+          "ApiChange": "NavigationPropertyBinding",
+          "ChangedApiName": "enterpriseApps/resourceNamespaces/resourceActions/authenticationContext",
+          "ChangeType": "Addition",
+          "Description": "Added the [enterpriseApps/resourceNamespaces/resourceActions/authenticationContext](https://learn.microsoft.com/en-us/?view=graph-rest-beta) resource",
+          "Target": "roleManagement"
+        }
+      ],
+      "Id": "d99d7043-a540-4767-92d6-169bfa11d3b6",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2023-04-24T16:52:44.6951789Z",
+      "WorkloadArea": "Role management",
+      "SubArea": ""
+    }
+  ]
+}
